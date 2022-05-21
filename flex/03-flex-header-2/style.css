@@ -23,6 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  margin-left: 16px;
 }
 
 .logo {
@@ -30,12 +31,13 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  margin-left: 8px;
+  margin-right: 16px;
 }
 
 .left, .right {
   display: flex;
   align-items: center;
-  padding: 16px;
 }
 
 button {
