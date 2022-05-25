@@ -16,6 +16,10 @@ body {
 }
 
 .modal {
+  display: flex;
+  padding: 1em;
+  flex-direction: row;
+  gap: 8px;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -35,11 +39,31 @@ body {
   justify-content: center;
 }
 
+.middle-top {
+  display: flex;
+  padding-bottom: 8px;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: 600;
+}
+
+.text {
+  padding-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: left;
+  gap: 5px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 16px;
   height: 24px;
   width: 24px;
